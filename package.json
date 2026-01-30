@@ -20,10 +20,20 @@
         "build": "tsc",
         "prepublishOnly": "pnpm run build"
     },
-    "keywords": ["translate", "translation", "language", "translator", "nodejs", "typescript"],
+    "keywords": [
+        "translate",
+        "translation",
+        "language",
+        "translator",
+        "nodejs",
+        "typescript"
+    ],
     "author": "",
     "packageManager": "pnpm@10.28.2",
     "dependencies": {
         "fs": "0.0.1-security"
+    },
+    "devDependencies": {
+        "@types/node": "^25.1.0"
     }
 }
