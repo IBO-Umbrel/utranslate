@@ -22,16 +22,14 @@ npm install utranslate
 Import the library in your project:
 
 ```ts
-import { translate } from "utranslate";
+import Utranslate from "utranslate";
 ```
 
 ## Example
 ```js
 async function example() {
-  const result = await translate("Hello world", {
-    from: "en",
-    to: "es"
-  });
+  const translator = new Utranslate("en", "uz");
+  const result = await translator.translate("Hello, world!");
   console.log(result);
 }
 
