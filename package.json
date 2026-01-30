@@ -1,7 +1,7 @@
 {
     "name": "utranslate",
     "version": "1.0.2",
-    "description": "",
+    "description": "A simple and lightweight Node.js translation utility designed to make translating text between languages easy and programmatic. Built in TypeScript.",
     "main": "dist/index.js",
     "exports": {
         ".": {
@@ -20,7 +20,7 @@
         "build": "tsc",
         "prepublishOnly": "pnpm run build"
     },
-    "keywords": [],
+    "keywords": ["translate", "translation", "language", "translator", "nodejs", "typescript"],
     "author": "",
     "packageManager": "pnpm@10.28.2",
     "dependencies": {
