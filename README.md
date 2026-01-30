@@ -25,8 +25,8 @@ Import the library in your project:
 import { translate } from "utranslate";
 ```
 
+## Example
 ```js
-Example
 async function example() {
   const result = await translate("Hello world", {
     from: "en",
