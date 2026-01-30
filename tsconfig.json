@@ -15,8 +15,7 @@
         "skipLibCheck": true,
         "noEmitOnError": true,
         "sourceMap": true,
-        "types": ["node"],
-        "incremental": true
+        "types": ["node"]
     },
     "include": ["**/*.ts"],
     "exclude": ["node_modules", "dist"]

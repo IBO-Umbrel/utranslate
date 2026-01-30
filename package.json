@@ -21,7 +21,6 @@
     "author": "",
     "packageManager": "pnpm@10.28.2",
     "dependencies": {
-        "@types/node": "^25.1.0",
         "fs": "0.0.1-security"
     }
 }
