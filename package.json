@@ -1,6 +1,6 @@
 {
     "name": "utranslate",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A simple and lightweight Node.js translation utility designed to make translating text between languages easy and programmatic. Built in TypeScript.",
     "main": "dist/index.js",
     "exports": {
