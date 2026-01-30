@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "ESNext",
+        "declaration": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "strict": true,
+
+        "lib": ["ES2020"],
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "types": ["node"],
+        "incremental": true
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules", "dist"]
+}

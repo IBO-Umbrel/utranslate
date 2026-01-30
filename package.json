@@ -1,0 +1,29 @@
+{
+    "name": "utranslate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    
+    "exports": {
+        ".": {
+        "import": "./dist/index.js",
+        "types": "./dist/index.d.ts"
+        }
+    },
+    "files": ["dist"],
+    "license": "MIT",
+
+    
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "pnpm run build"
+    },
+
+    "keywords": [],
+    "author": "",
+    "packageManager": "pnpm@10.28.2",
+    "dependencies": {
+        "@types/node": "^25.1.0",
+        "fs": "0.0.1-security"
+    }
+}
