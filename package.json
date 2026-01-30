@@ -9,6 +9,9 @@
             "types": "./dist/index.d.ts"
         }
     },
+    "repository": {
+        "url": "https://github.com/IBO-Umbrel/utranslate"
+    },
     "files": [
         "dist"
     ],
