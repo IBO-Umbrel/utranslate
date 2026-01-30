@@ -2,12 +2,13 @@ from easygoogletranslate import EasyGoogleTranslate
 from flask import Flask , request
 import emoji
 import re
-
+from auth import require_api_key
 
 app = Flask(__name__)
 
 
 @app.route("/translate", methods=['POST'])
+@require_api_key
 def translate():
     data = request.get_json()
 
